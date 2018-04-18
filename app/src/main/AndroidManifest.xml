@@ -21,7 +21,8 @@
         <activity android:name=".ChooserActivity" />
         <activity android:name=".RegisterFamilyActivity" />
         <activity android:name=".RegisterDonerActivity" />
-        <activity android:name=".RegisterPoorActivity"></activity>
+        <activity android:name=".RegisterPoorActivity" />
+        <activity android:name=".ProfileKafeelActivity"></activity>
     </application>
 
 </manifest>

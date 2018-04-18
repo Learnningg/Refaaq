@@ -95,5 +95,7 @@
     <string name="Mother">الام</string>
     <string name="change_password">تغير كلمه المرورو</string>
     <string name="age">العمر</string>
+    <string name="nunber">رقم الكفيل 15</string>
+    <string name="profile">الصفحه الشخصيه</string>
 
 </resources>

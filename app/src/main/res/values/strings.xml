@@ -100,6 +100,9 @@
     <string name="Social_status">Social status</string>
     <string name="change_password">Change Password</string>
     <string name="age">Age</string>
+    <string name="nunber">رقم الكفيل 15</string>
+    <string name="aytam">الايتام</string>
+    <string name="profile">الصفحه الشخصيه</string>
 
 
 </resources>
