@@ -126,10 +126,6 @@
                     style="@style/AppTheme"
                     android:id="@+id/dep_family" />
 
-
-
-
-
             </LinearLayout>
             <Button
                 android:layout_width="match_parent"
