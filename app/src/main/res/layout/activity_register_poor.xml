@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/back1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:text="@string/reg_poor"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+
+                <EditText
+                    android:id="@+id/name_poor"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/name"
+                    android:inputType="textEmailAddress"
+                    style="@style/AppTheme"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/phone"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:background="@drawable/edt_bg"
+                    android:id="@+id/phone_poor"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/State"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:background="@drawable/edt_bg"
+                    android:id="@+id/state_poor"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/address"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:id="@+id/addrss_poor"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/extent_of_need"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:id="@+id/need_poor"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/Regist"
+                android:id="@+id/regist_poor"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="20dp" />
+
+
+        </RelativeLayout>
+</ScrollView>

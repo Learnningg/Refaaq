@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Refaaq</string>
+    <string name="hello_text">مرحبا بكم فى برنامج رفاق</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="header">Refaq</string>
+    <string name="text">Every year, Rafak Charity launches a series of projects during the Holy Month, including a breakfast for those in need, a Ramadan basket, printing of the Koran, prayer of worshipers, distribution of Zakat al-Fitr and charity.</string>
+    <string name="expand_all">Expand All</string>
+    <string name="collapse_all">Collapse All</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="numprogrm">cvv</string>
+
+    <string name="name1">3aed Mohame Ahmed</string>
+    <string name="pub_detail">Details Person</string>
+    <string name="news">news</string>
+    <string name="about">About US</string>
+    <string name="programs">programs</string>
+    <string name="contact"> contact US</string>
+    <string name="out">Log out</string>
+
+
+    <string name="name">name</string>
+    <string name="How_Payment">How Payment</string>
+    <string name="sex">Sex</string>
+
+    <string name="start_Guarantee">start Guarantee</string>
+    <string name="Date_Guarantee">Date Guarantee</string>
+    <string name="End_Guarantee">End Guarantee</string>
+    <string name="Number_payments">Number payments</string>
+    <string name="amount_Guarantee">amount Guarantee</string>
+    <string name="number_Orphans_Guaranteed">number Orphans Guaranteed</string>
+    <string name="ID_Number">ID Number</string>
+    <string name="phone">phone</string>
+
+    <string name="amount_retirement">Amount  retirement</string>
+    <string name="amount_guarantee">amount guarantee</string>
+    <string name="name_bank">The Bank</string>
+    <string name="name_person">name person acount</string>
+    <string name="ID_acount">ID acount</string>
+    <string name="Annual_amount">Annual amount</string>
+
+
+    <string name="money_dman">money dman </string>
+
+
+    <string name="mail">mail</string>
+    <string name="job">job</string>
+    <string name="Nationality">Nationality</string>
+    <string name="Select_Institution_Individual">Select Institution OR Individual</string>
+    <string name="sponsor">sponsor</string>
+    <string name="Donor">Donor</string>
+    <string name="Confirm_pass">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="Department">Department</string>
+    <string name="ID_Mother">ID Mother</string>
+    <string name="iDD">ID</string>
+    <string name="State">State</string>
+    <string name="extent_of_need">the extent of need</string>
+    <string name="address">Address</string>
+    <string name="reg_poor">Register Poor</string>
+    <string name="Regist">create Account</string>
+    <string name="register_family">Register Family</string>
+    <string name="regist_kafeel">Register Sponsor</string>
+    <string name="regist_mtabr3">Register Donor</string>
+    <string name="message">Leave Your Message</string>
+    <string name="send">SEND</string>
+    <string name="callus">Call Us</string>
+    <string name="start">Get started</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+
+    <string name="username">Username</string>
+    <string name="Continue">Continue</string>
+    <string name="tab_1">Label 1</string>
+    <string name="tab_2">Label 2</string>
+    <string name="tab_3">Label 3</string>
+    <string name="tab_4">Label 4</string>
+    <string name="tab_5">Label 5</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+    <string name="menu_3">Menu 3</string>
+    <string name="menu_4">Menu 4</string>
+    <string name="menu_5">Menu 5</string>
+    <string name="num_sons">Number sons</string>
+    <string name="Cause_death">Cause Death</string>
+    <string name="Mother">Mother</string>
+    <string name="first_name">First Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="grand_father_name">Grand Father Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="Birth_day">Birth Day</string>
+    <string name="Death_day">Death Day</string>
+    <string name="father">Father</string>
+    <string name="Social_status">Social status</string>
+    <string name="change_password">Change Password</string>
+    <string name="age">Age</string>
+
+
+</resources>

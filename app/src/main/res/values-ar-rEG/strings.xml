@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رفاق</string>
+    <string name="hello_text">مرحبا بكم فى برنامج رفاق</string>
+
+    <string name="action_settings">اعدادات</string>
+    <string name="title_activity_auth">ااكتفتي</string>
+    <string name="title_activity_profile">الرئيسيه</string>
+    <string name="header">رفاق</string>
+    <string name="expand_all">شاهد الكل</string>
+    <string name="collapse_all">اخفي الكل</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="numprogrm">cvv</string>
+    <string name="name1">عائد محمد احمد</string>
+
+    <string name="How_Payment">طريقه السداد</string>
+    <string name="type">النوع</string>
+
+    <string name="start_Guarantee">بداية الكفالة</string>
+    <string name="Date_Guarantee">تاريخ الكفاله</string>
+    <string name="End_Guarantee">نهاية الكفالة</string>
+    <string name="Number_payments">عدد الدفعات</string>
+    <string name="amount_Guarantee">مبلغ الكفالة</string>
+    <string name="number_Orphans_Guaranteed">عدد الايتام المكفولين</string>
+    <string name="ID_Number">رقم الهوية</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="mail">البريد الالكتروني</string>
+    <string name="job">المهنة</string>
+    <string name="Nationality">الجنسية</string>
+    <string name="Select_Institution_Individual">اختر مؤسسة / فرد</string>
+
+    <string name="sponsor">كفيل</string>
+    <string name="Donor">متبرع</string>
+    <string name="pub_detail">lphhh</string>
+    <string name="news">الاخبار</string>
+    <string name="about">من نحن</string>
+    <string name="programs">برامجنا</string>
+    <string name="contact">اتصل بنا</string>
+    <string name="out">تسجيل خروج</string>
+
+    <string name="name">الاسم</string>
+
+    <string name="sex">الجنس</string>
+
+
+
+    <string name="amount_retirement">مبلغ التقاعد  </string>
+    <string name="amount_guarantee">مبلغ الضمان</string>
+    <string name="name_bank"> إسم البنك</string>
+    <string name="name_person">الإسم المعتمد للحساب</string>
+    <string name="ID_acount">رقم الحساب </string>
+    <string name="Annual_amount"> مقدار العادة السنوية</string>
+
+
+
+    <string name="text">كل عام، تطلق "رفاق الخيرية" جملة من المشاريع خلال الشهر الفضيل، منها إفطار للمحتاجين، وتوفير سلة رمضان، وطباعة المصاحف، وسُقيا المصلين، وتوزيع زكاة الفطر والصدقات.</string>
+    <string name="callus">اتصل بنا</string>
+    <string name="message">اترك رسالتك</string>
+    <string name="send">ارسل</string>
+    <string name="Confirm_pass">تاكيد كلمة المرور</string>
+    <string name="password">كلمه المرور</string>
+    <string name="Department">مقر التسجيل</string>
+    <string name="ID_Mother">رقم السجل المدني للأم</string>
+    <string name="iDD">رقم السجل المدني</string>
+    <string name="State">الحاله</string>
+    <string name="Social_status">الحاله الاجتماعيه</string>
+    <string name="extent_of_need">مدي الاحتياج</string>
+    <string name="address">العنوان</string>
+    <string name="reg_poor">تسجيل محتاج</string>
+    <string name="register_family">تسجيل اسره</string>
+    <string name="regist_kafeel">تسجيل كافل</string>
+    <string name="regist_mtabr3">تسجيل متبرع</string>
+    <string name="Regist">أنشاء حساب</string>
+    <string name="start">أبدا</string>
+    <string name="signin">تسجيل دخول</string>
+    <string name="signup">أنشاء حساب</string>
+
+    <string name="username">اسم المستخدم</string>
+    <string name="Continue">دخول</string>
+    <string name="number_electric">رقم حساب فاتوره الكهرباء</string>
+    <string name="type_place">نوع السكن</string>
+    <string name="number_rooms">عدد الغرف</string>
+    <string name="have_home">ملكية السكن</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="father_name">اسم الاب</string>
+    <string name="grand_father_name">اسم الجد</string>
+    <string name="family_name">اسم العائله</string>
+    <string name="Birth_day">تاريخ الميلاد</string>
+    <string name="Death_day">تاريخ الوفاه</string>
+    <string name="father">الاب</string>
+    <string name="num_sons">عدد الابناء</string>
+    <string name="Cause_death">سبب الوفاه</string>
+    <string name="Mother">الام</string>
+    <string name="change_password">تغير كلمه المرورو</string>
+    <string name="age">العمر</string>
+
+</resources>
