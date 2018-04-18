@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterPoorActivity">
+        <activity android:name=".RegisterKafeelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".ChooserActivity" />
         <activity android:name=".RegisterFamilyActivity" />
-        <activity android:name=".RegisterDonerActivity"></activity>
+        <activity android:name=".RegisterDonerActivity" />
+        <activity android:name=".RegisterPoorActivity"></activity>
     </application>
 
 </manifest>

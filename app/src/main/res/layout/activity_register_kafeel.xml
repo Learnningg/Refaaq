@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/back1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="35dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:text="@string/regist_kafeel"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/name_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/ID_Number"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/id_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/mail"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/email_kafeel" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    style="@style/AppTheme"
+                    android:id="@+id/password_kafeel" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/Select_Institution_Individual"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/select_kafeel" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/start_Guarantee"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/start_kafeel" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/End_Guarantee"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/end_kafeel" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/Date_Guarantee"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/date_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/How_Payment"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/how_pay_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/amount_Guarantee"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/amount_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/Number_payments"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/number_pay_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/number_Orphans_Guaranteed"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/number_orphan_kafeel" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/sex"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/type_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/job"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/job_kafeel" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/edt_bg"                    android:hint="@string/Nationality"
+                    android:inputType="text"
+                    style="@style/AppTheme"
+                    android:id="@+id/nationality_kafeel" />
+
+
+
+            </LinearLayout>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="@string/Regist"
+                android:id="@+id/register_kafeel"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="20dp" />
+
+        </RelativeLayout>
+</ScrollView>

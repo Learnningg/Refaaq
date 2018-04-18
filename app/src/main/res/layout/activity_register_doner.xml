@@ -111,7 +111,7 @@
                     android:inputType="text"
                     style="@style/AppTheme"
                     android:id="@+id/select_mtabr3" />
-                
+
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
@@ -128,7 +128,7 @@
 
 
 
-                <EditText
+                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:paddingLeft="10dp"
