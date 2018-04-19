@@ -77,16 +77,17 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_news) {
-            //Intent intent=new Intent(MainActivity.this,)
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+            Intent intent=new Intent(MainActivity.this,ProgramsActivity.class);
+            startActivity(intent);        } else if (id == R.id.nav_programs) {
+            Intent intent=new Intent(MainActivity.this,ProgramsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_contact) {
+            Intent intent=new Intent(MainActivity.this,CallUsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_about) {
+            Intent intent=new Intent(MainActivity.this,AboutUsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_logout) {
 
         }
 
