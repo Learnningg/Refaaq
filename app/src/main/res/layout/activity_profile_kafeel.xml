@@ -9,14 +9,14 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/back"
+        android:background="@drawable/back1"
         android:orientation="vertical"
         tools:context="com.alatheer.refaaq.ProfileKafeelActivity">
 
 
 
         <RelativeLayout
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -60,6 +60,7 @@
     android:orientation="horizontal">
 
     <Button
+        android:id="@+id/btn_aytam_kafeel"
         android:layout_margin="10dp"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -69,6 +70,7 @@
         android:layout_height="60dp"
         android:background="@drawable/button"/>
     <Button
+        android:id="@+id/btn_profile_kafeel"
         android:layout_margin="10dp"
         android:text="@string/profile"
         android:textColor="@color/white"
@@ -78,5 +80,13 @@
         android:layout_height="60dp"
         android:background="@drawable/button"/>
 </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentkafeel"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
     </LinearLayout>
 </FrameLayout>
