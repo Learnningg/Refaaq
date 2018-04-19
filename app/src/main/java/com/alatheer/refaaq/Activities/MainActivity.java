@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_news) {
-            Intent intent=new Intent(MainActivity.this,ProgramsActivity.class);
+            Intent intent=new Intent(MainActivity.this,NewsActivity.class);
             startActivity(intent);        } else if (id == R.id.nav_programs) {
             Intent intent=new Intent(MainActivity.this,ProgramsActivity.class);
             startActivity(intent);

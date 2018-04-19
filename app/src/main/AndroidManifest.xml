@@ -29,6 +29,7 @@
         <activity android:name=".Activities.CallUsActivity" />
         <activity android:name=".Activities.ProgramsActivity" />
         <activity android:name=".Activities.AboutUsActivity" />
+        <activity android:name=".Activities.NewsActivity"></activity>
     </application>
 
 </manifest>
