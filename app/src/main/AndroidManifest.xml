@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProgramsActivity">
+        <activity android:name=".ProfileKafeelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +23,9 @@
         <activity android:name=".RegisterDonerActivity" />
         <activity android:name=".RegisterPoorActivity" />
         <activity android:name=".RegisterKafeelActivity" />
-        <activity android:name=".AboutUsActivity" />
-        <activity android:name=".CallUsActivity"/>
-        <activity android:name=".ProfileKafeelActivity"></activity>
+        <activity android:name=".CallUsActivity" />
+        <activity android:name=".ProgramsActivity"/>
+        <activity android:name=".AboutUsActivity"></activity>
     </application>
 
 </manifest>
