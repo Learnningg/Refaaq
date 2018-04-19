@@ -1,4 +1,4 @@
-package com.alatheer.refaaq;
+package com.alatheer.refaaq.Activities;
 
 import android.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;

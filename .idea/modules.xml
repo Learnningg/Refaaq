@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Refaaq.iml" filepath="$PROJECT_DIR$/.idea/Refaaq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Refaaq.iml" filepath="$PROJECT_DIR$/Refaaq.iml" />
       <module fileurl="file://E:\androidNewEnd\asmaa\Refaaq\Refaaq.iml" filepath="E:\androidNewEnd\asmaa\Refaaq\Refaaq.iml" />
+      <module fileurl="file://E:\android\projects\Refaaq\.idea\Refaaq.iml" filepath="E:\android\projects\Refaaq\.idea\Refaaq.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

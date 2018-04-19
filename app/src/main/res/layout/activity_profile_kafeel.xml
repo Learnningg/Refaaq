@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/back1"
         android:orientation="vertical"
-        tools:context="com.alatheer.refaaq.ProfileKafeelActivity">
+        tools:context="com.alatheer.refaaq.Activities.ProfileKafeelActivity">
 
 
 

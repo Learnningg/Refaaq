@@ -1,10 +1,12 @@
-package com.alatheer.refaaq;
+package com.alatheer.refaaq.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.alatheer.refaaq.Adapters.ProgramsAdapter;
+import com.alatheer.refaaq.R;
 
 
 public class ProgramsActivity extends AppCompatActivity {

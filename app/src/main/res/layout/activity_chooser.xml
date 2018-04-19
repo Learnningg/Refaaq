@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back1"
-    tools:context="com.alatheer.refaaq.ChooserActivity">
+    tools:context="com.alatheer.refaaq.Activities.ChooserActivity">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
+        android:layoutDirection="rtl"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -30,6 +32,7 @@
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/btn_Rigster_Sponser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/regist_kafeel"
@@ -41,6 +44,7 @@
                 android:background="@drawable/sign_back" />
 
             <Button
+                android:id="@+id/btn_Rigster_Poor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
@@ -58,11 +62,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginTop="50dp"
-
+            android:layoutDirection="rtl"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/btn_Rigster_Donor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
@@ -74,6 +79,7 @@
                 android:background="@drawable/signright" />
 
             <Button
+                android:id="@+id/btn_Rigster_Family"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-40dp"

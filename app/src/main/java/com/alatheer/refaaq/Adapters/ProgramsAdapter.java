@@ -1,4 +1,4 @@
-package com.alatheer.refaaq;
+package com.alatheer.refaaq.Adapters;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -13,6 +13,8 @@ import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.alatheer.refaaq.R;
 
 
 public class ProgramsAdapter extends RecyclerView.Adapter<ProgramsAdapter.RecyclerViewHolder> {

@@ -1,13 +1,17 @@
-package com.alatheer.refaaq;
+package com.alatheer.refaaq.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ChooserActivity extends AppCompatActivity {
+import com.alatheer.refaaq.R;
+
+public class RegisterKafeelActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chooser);
+        setContentView(R.layout.activity_register_kafeel);
+
+
     }
 }

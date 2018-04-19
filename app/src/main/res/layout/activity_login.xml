@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/back"
         android:orientation="vertical"
-        tools:context="com.alatheer.refaaq.LoginActivity">
+        tools:context="com.alatheer.refaaq.Activities.LoginActivity">
 
         <TextView
             android:layout_width="match_parent"
