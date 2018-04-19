@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,203 +11,310 @@
     android:orientation="vertical"
     tools:context="com.alatheer.refaaq.FragmentProfileKaffel">
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
 
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="15dp"
+            android:background="@drawable/btn_fragment1_kafeel"
             android:gravity="center"
+            android:text="@string/job"
             android:textColor="@color/white"
-            android:background="@color/colorPrimary"
-            android:text="@string/family_name" />
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <TextView
-            android:layout_margin="10dp"
+            android:id="@+id/txt_job"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:textColor="@color/colorPrimary"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
             android:gravity="center"
-            android:background="@color/back2"
-            android:text="@string/name_person" />
+            android:text="موظف حكومى"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
 
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="15dp"
+            android:background="@drawable/btn_fragment1_kafeel"
             android:gravity="center"
+            android:text="@string/Nationality"
             android:textColor="@color/white"
-            android:background="@color/colorPrimary"
-            android:text="@string/family_name" />
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <TextView
-            android:layout_margin="10dp"
+            android:id="@+id/txt_Nationality"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:textColor="@color/colorPrimary"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
             android:gravity="center"
-            android:background="@color/back2"
-            android:text="@string/name_person" />
+            android:text=" سعودى"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
+
+
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
 
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="15dp"
+            android:background="@drawable/btn_fragment1_kafeel"
             android:gravity="center"
+            android:text="@string/phone"
             android:textColor="@color/white"
-            android:background="@color/colorPrimary"
-            android:text="@string/family_name" />
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <TextView
-            android:layout_margin="10dp"
+            android:id="@+id/txt_phone"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:textColor="@color/colorPrimary"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
             android:gravity="center"
-            android:background="@color/back2"
-            android:text="@string/name_person" />
+            android:text="02829382934"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
 
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="15dp"
+            android:background="@drawable/btn_fragment1_kafeel"
             android:gravity="center"
+            android:text="@string/How_Payment"
             android:textColor="@color/white"
-            android:background="@color/colorPrimary"
-            android:text="@string/family_name" />
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <TextView
-            android:layout_margin="10dp"
+            android:id="@+id/txt_How_Payment"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:textColor="@color/colorPrimary"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
             android:gravity="center"
-            android:background="@color/back2"
-            android:text="@string/name_person" />
+            android:text="استقطاع"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
+
+
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
 
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="15dp"
+            android:background="@drawable/btn_fragment1_kafeel"
             android:gravity="center"
+            android:text="@string/type_Guarantee"
             android:textColor="@color/white"
-            android:background="@color/colorPrimary"
-            android:text="@string/family_name" />
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <TextView
-            android:layout_margin="10dp"
+            android:id="@+id/txt_type_Guarantee"
+
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:textColor="@color/colorPrimary"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
             android:gravity="center"
-            android:background="@color/back2"
-            android:text="@string/name_person" />
+            android:text="كفاله ماديه"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
 
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="15dp"
+            android:background="@drawable/btn_fragment1_kafeel"
             android:gravity="center"
+            android:text="@string/name_Program"
             android:textColor="@color/white"
-            android:background="@color/colorPrimary"
-            android:text="@string/family_name" />
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <TextView
-            android:layout_margin="10dp"
+            android:id="@+id/txt_name_Program"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:textColor="@color/colorPrimary"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
             android:gravity="center"
-            android:background="@color/back2"
-            android:text="@string/name_person" />
+            android:text="كفاله يتيم"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_fragment1_kafeel"
+            android:gravity="center"
+            android:text="@string/Status_Program"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_Status_Program"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
+            android:gravity="center"
+            android:text="جاري"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_fragment1_kafeel"
+            android:gravity="center"
+            android:text="@string/Value_Program"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_Value_Program"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_fragment2_kafeel"
+            android:gravity="center"
+            android:text="200"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
 </LinearLayout>
 </ScrollView>

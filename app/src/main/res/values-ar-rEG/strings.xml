@@ -97,5 +97,12 @@
     <string name="age">العمر</string>
     <string name="nunber">رقم الكفيل 15</string>
     <string name="profile">الصفحه الشخصيه</string>
+    <string name="num_aytam">عدد الايتام</string>
+    <string name="name_yatem">اسم اليتيم</string>
+    <string name="name_mother">اسم الام</string>
+    <string name="type_Guarantee">نوع الكفاله</string>
+    <string name="name_Program">اسم البرنامج</string>
+    <string name="Status_Program">حالة البرنامج</string>
+    <string name="Value_Program">قيمه البرنامج</string>
 
 </resources>

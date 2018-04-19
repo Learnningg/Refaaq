@@ -106,6 +106,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="num_aytam">عدد الايتام</string>
+    <string name="name_yatem">اسم اليتيم</string>
+    <string name="name_mother">اسم الام</string>
+    <string name="type_Guarantee">نوع الكفاله</string>
+    <string name="name_Program">اسم البرنامج</string>
+    <string name="Status_Program">حالة البرنامج</string>
+    <string name="Value_Program">قيمه البرنامج</string>
 
 
 </resources>
