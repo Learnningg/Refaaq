@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity
 
         profile.setOnClickListener(this);
         aytam.setOnClickListener(this);
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragmentkafeel,new FragmentProfileKaffel())
+                .commit();
     }
 
     @Override
