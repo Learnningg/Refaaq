@@ -113,6 +113,11 @@
     <string name="name_Program">اسم البرنامج</string>
     <string name="Status_Program">حالة البرنامج</string>
     <string name="Value_Program">قيمه البرنامج</string>
+    <string name="family_member">Family member</string>
+    <string name="finance_info">Finance info</string>
+    <string name="living_info">Living info</string>
+    <string name="parent_info">Parent info</string>
+    <string name="main_info">Main info</string>
 
     <string name="tit">تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء</string>
 
