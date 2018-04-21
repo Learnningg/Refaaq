@@ -46,13 +46,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.btn_signin:
                 if (type.equals("donor"))
                 {
-                    Intent intent1=new Intent(LoginActivity.this,ProfileKafeelActivity.class);
+                    Intent intent1=new Intent(LoginActivity.this,MainActivity.class);
                     startActivity(intent1);
                     finish();
                 }
                 else if (type.equals("sponsor"))
                 {
-                    Intent intent1=new Intent(LoginActivity.this,ProfileKafeelActivity.class);
+                    Intent intent1=new Intent(LoginActivity.this,MainActivity.class);
                     startActivity(intent1);
                     finish();
 
