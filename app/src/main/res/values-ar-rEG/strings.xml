@@ -104,5 +104,10 @@
     <string name="name_Program">اسم البرنامج</string>
     <string name="Status_Program">حالة البرنامج</string>
     <string name="Value_Program">قيمه البرنامج</string>
+    <string name="family_member">أفراد الاسرة</string>
+    <string name="finance_info">بيانات المالية</string>
+    <string name="living_info">بيانات السكن</string>
+    <string name="parent_info">بيانات الاب والام</string>
+    <string name="main_info">البيانات الاساسية</string>
 
 </resources>

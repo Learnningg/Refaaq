@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/fm"
+        android:title="@string/family_member"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:icon="@drawable/family"
+        />
+    <item android:id="@+id/finance_info"
+        android:title="@string/finance_info"
+        app:showAsAction="never"
+        android:orderInCategory="200"
+        android:icon="@drawable/money"
+        />
+    <item android:id="@+id/living"
+        android:title="@string/living_info"
+        app:showAsAction="never"
+        android:orderInCategory="300"
+        android:icon="@drawable/flag"
+        />
+    <item android:id="@+id/parent_info"
+        android:title="@string/parent_info"
+        app:showAsAction="never"
+        android:orderInCategory="400"
+        android:icon="@drawable/couple"
+        />
+    <item android:id="@+id/main_info"
+        android:title="@string/main_info"
+        app:showAsAction="never"
+        android:orderInCategory="500"
+        android:icon="@drawable/iconn"
+        />
+</menu>
