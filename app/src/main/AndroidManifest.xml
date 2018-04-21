@@ -29,13 +29,11 @@
         <activity android:name=".Activities.AboutUsActivity" />
         <activity android:name=".Activities.LoginActivity" />
         <activity android:name=".Activities.NewsActivity" />
-
         <activity
             android:name=".Activities.Family_Activity"
             android:label="@string/title_activity_family_"
-            android:theme="@style/AppTheme">
-
-        </activity>
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".Activities.DetailsNewsActivity"></activity>
     </application>
 
 </manifest>

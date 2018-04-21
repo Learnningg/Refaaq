@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.alatheer.refaaq.Activities.NewsActivity;
 import com.alatheer.refaaq.R;
 
 
@@ -19,12 +20,16 @@ public class News_Adapter extends RecyclerView.Adapter<News_Adapter.Holder> {
     private static int [] Img;
     Context mcontext;
 
+    NewsActivity newsActivity;
+
     public News_Adapter(Context mcontext, String[] titlee, int[] Img) {
         NUM_OF_ITEMS = titlee.length;
 
         this.mcontext = mcontext;
         this.titlee=titlee;
         this.Img=Img;
+
+        newsActivity=(NewsActivity) mcontext;
 
     }
 
@@ -39,11 +44,24 @@ public class News_Adapter extends RecyclerView.Adapter<News_Adapter.Holder> {
     }
 
     @Override
-    public void onBindViewHolder(Holder holder, int position) {
+    public void onBindViewHolder(final Holder holder, int position) {
+
+
 
         holder.title.setText(titlee[position]);
 
         holder.img.setImageResource(Img[position]);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                int pos=holder.getAdapterPosition();
+                newsActivity.pos(pos);
+
+
+            }
+        });
 
     }
 
