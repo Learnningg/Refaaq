@@ -120,5 +120,6 @@
     <string name="main_info">Main info</string>
 
     <string name="tit">تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء</string>
+    <string name="title_activity_family_">Family_Activity</string>
 
 </resources>

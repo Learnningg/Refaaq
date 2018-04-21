@@ -29,6 +29,10 @@
         <activity android:name=".Activities.CallUsActivity" />
         <activity android:name=".Activities.ProgramsActivity" />
         <activity android:name=".Activities.AboutUsActivity" />
+        <activity
+            android:name=".Activities.Family_Activity"
+            android:label="@string/title_activity_family_"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
