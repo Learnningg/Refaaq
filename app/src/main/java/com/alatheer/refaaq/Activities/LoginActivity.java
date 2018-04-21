@@ -62,8 +62,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 startActivity(intent1);
                 finish();
                 }if (type.equals("family"))
-
-
                 {
                 Intent intent1=new Intent(LoginActivity.this,Family_Activity.class);
                 startActivity(intent1);
