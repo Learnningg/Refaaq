@@ -1,9 +1,766 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:text="parent"
-    android:gravity="center"
-    >
+   >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+      
 
-</TextView>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary2"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn3"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="@string/father"
+                    android:textColor="#fff" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+
+                        android:text="عبد الله"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/first_name"
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+
+                        android:text="حمد"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/father_name"
+
+                        android:textColor="#fff"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+
+                        android:text=" زيد"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/grand_father_name"
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+
+                        android:text=" الساهلي"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/family_name"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="1000608172"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/ID_Number"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="3-3-2777 "
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/Birth_day"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="3-5-2722"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/Death_day"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="2"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/num_sons"
+
+
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="مرض"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/Cause_death"
+
+
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="سعودي"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/Nationality"
+
+
+                        android:textColor="#fff" />
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn3"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="@string/Mother"
+                    android:textColor="#fff" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text=" اضغط هنا "
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="تغير كلمه المرور"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="توحيده"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/first_name"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="احمد"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/father_name"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="زكي"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/grand_father_name"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="ابوطالب"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/family_name"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="ارمله"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/Social_status"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="20-4-1999"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/Birth_day"
+
+
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment2_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+
+                        android:gravity="center"
+                        android:text="سعوديه"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_fragment1_kafeel"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:gravity="center"
+                        android:text="@string/Nationality"
+
+
+                        android:textColor="#fff" />
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_fragment2_kafeel"
+                            android:clickable="true"
+                            android:elevation="4dp"
+
+                            android:gravity="center"
+                            android:text="32232323"
+
+                            android:textColor="@color/colorPrimary" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_fragment1_kafeel"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:gravity="center"
+                            android:text="@string/phone"
+
+
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_fragment2_kafeel"
+                            android:clickable="true"
+                            android:elevation="4dp"
+
+                            android:gravity="center"
+                            android:text="23232323"
+
+                            android:textColor="@color/colorPrimary" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_fragment1_kafeel"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:gravity="center"
+                            android:text="@string/ID_Number"
+
+
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>
