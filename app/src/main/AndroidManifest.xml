@@ -9,26 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.LoginActivity">
+        <activity android:name=".Activities.ProfileKafeelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activities.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".Activities.ProfileKafeelActivity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.LoginActivity" />
         <activity android:name=".Activities.ChooserActivity" />
         <activity android:name=".Activities.RegisterFamilyActivity" />
         <activity android:name=".Activities.RegisterDonerActivity" />
         <activity android:name=".Activities.RegisterPoorActivity" />
         <activity android:name=".Activities.RegisterKafeelActivity" />
         <activity android:name=".Activities.CallUsActivity" />
-        <activity android:name=".Activities.ProgramsActivity" />
-        <activity android:name=".Activities.AboutUsActivity" />
+        <activity android:name=".Activities.ProgramsActivity"/>
+        <activity android:name=".Activities.AboutUsActivity"></activity>
+        <activity android:name=".Activities.FamilyActivity">
+
+        </activity>
     </application>
 
 </manifest>
