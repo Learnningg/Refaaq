@@ -6,7 +6,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    android:background="@drawable/background"
+
+    >
     <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,7 +19,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:background="@color/colorPrimary2"
+                android:background="@drawable/background"
                 >
 
                 <TextView
@@ -30,7 +32,7 @@
                     android:gravity="center"
                     android:padding="20dp"
                     android:text="هاجر"
-                    android:textColor="#fff" />
+                    android:textColor="@color/colorPrimary" />
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -217,7 +219,7 @@
                     android:gravity="center"
                     android:padding="20dp"
                     android:text="بسمه"
-                    android:textColor="#fff" />
+                    android:textColor="@color/colorPrimary" />
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
