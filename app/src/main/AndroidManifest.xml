@@ -20,8 +20,6 @@
             android:name=".Activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Activities.ProfileKafeelActivity" />
-        <activity android:name=".Activities.FamilyActivity" />
         <activity android:name=".Activities.RegisterFamilyActivity" />
         <activity android:name=".Activities.RegisterDonerActivity" />
         <activity android:name=".Activities.RegisterPoorActivity" />
