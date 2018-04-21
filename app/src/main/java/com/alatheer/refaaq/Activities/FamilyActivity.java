@@ -13,6 +13,7 @@ import com.alatheer.refaaq.Fragments.Finance_Fragment;
 import com.alatheer.refaaq.Fragments.Living_Fragment;
 import com.alatheer.refaaq.Fragments.Main_Info_Frament;
 import com.alatheer.refaaq.Fragments.Parent_Info_Fragment;
+
 import com.alatheer.refaaq.R;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationAdapter;
