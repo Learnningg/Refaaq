@@ -10,14 +10,23 @@ import com.alatheer.refaaq.R;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button login,register;
+    private Button login,register;
+    private String type;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         intentView();
+        getDataFromIntent();
+    }
+
+    private void getDataFromIntent() {
+        Intent intent = getIntent();
+        if (intent!=null)
+        {
+           type = intent.getStringExtra("type");
+        }
     }
 
     private void intentView() {
@@ -35,13 +44,60 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         {
 
             case R.id.btn_signin:
-                Intent intent=new Intent(LoginActivity.this,MainActivity.class);
-                startActivity(intent);
+                if (type.equals("donor"))
+                {
+                    Intent intent1=new Intent(LoginActivity.this,ProfileKafeelActivity.class);
+                    startActivity(intent1);
+                    finish();
+                }
+                else if (type.equals("sponsor"))
+                {
+                    Intent intent1=new Intent(LoginActivity.this,ProfileKafeelActivity.class);
+                    startActivity(intent1);
+                    finish();
+
+                }if (type.equals("poor"))
+                {
+                Intent intent1=new Intent(LoginActivity.this,Family_Activity.class);
+                startActivity(intent1);
+                finish();
+                }if (type.equals("family"))
+
+
+                {
+                Intent intent1=new Intent(LoginActivity.this,Family_Activity.class);
+                startActivity(intent1);
+                finish();
+                }
+
 
                 break;
             case R.id.btn_signup:
-                Intent intent1=new Intent(LoginActivity.this,ChooserActivity.class);
-                startActivity(intent1);
+                if (type.equals("donor"))
+                {
+                    Intent intent1=new Intent(LoginActivity.this,RegisterDonerActivity.class);
+                    startActivity(intent1);
+                    finish();
+                }
+                else if (type.equals("sponsor"))
+                {
+                    Intent intent1=new Intent(LoginActivity.this,RegisterKafeelActivity.class);
+                    startActivity(intent1);
+                    finish();
+                }if (type.equals("poor"))
+
+                {
+                    Intent intent1=new Intent(LoginActivity.this,RegisterPoorActivity.class);
+                    startActivity(intent1);
+                    finish();
+                }if (type.equals("family"))
+
+                {
+                    Intent intent1=new Intent(LoginActivity.this,RegisterFamilyActivity.class);
+                    startActivity(intent1);
+                    finish();
+                }
+
 
                 break;
         }

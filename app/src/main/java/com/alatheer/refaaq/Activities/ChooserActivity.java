@@ -38,23 +38,37 @@ public class ChooserActivity extends AppCompatActivity implements View.OnClickLi
 
         switch (view.getId()) {
             case R.id.btn_Rigster_Donor:
-                Intent intent = new Intent(ChooserActivity.this, RegisterDonerActivity.class);
+                Intent intent = new Intent(ChooserActivity.this, LoginActivity.class);
+                intent.putExtra("type","donor");
                 startActivity(intent);
+                finish();
                 break;
 
             case R.id.btn_Rigster_Sponser:
-                Intent intent1 = new Intent(ChooserActivity.this, RegisterKafeelActivity.class);
+                Intent intent1 = new Intent(ChooserActivity.this, LoginActivity.class);
+                intent1.putExtra("type","sponsor");
+
                 startActivity(intent1);
+                finish();
+
                 break;
 
             case R.id.btn_Rigster_Poor:
-                Intent intent2 = new Intent(ChooserActivity.this, RegisterPoorActivity.class);
+                Intent intent2 = new Intent(ChooserActivity.this, LoginActivity.class);
+                intent2.putExtra("type","poor");
+
                 startActivity(intent2);
+                finish();
+
                 break;
 
             case R.id.btn_Rigster_Family:
-                Intent intent3 = new Intent(ChooserActivity.this, RegisterFamilyActivity.class);
+                Intent intent3 = new Intent(ChooserActivity.this, LoginActivity.class);
+                intent3.putExtra("type","family");
+
                 startActivity(intent3);
+                finish();
+
                 break;
         }
 
